@@ -1,0 +1,141 @@
+* 
+/* App.css */
+
+/* Reset de márgenes y paddings */{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo global */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Estilo del contenedor principal */
+div {
+  padding: 20px;
+}
+
+/* Estilo del encabezado */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+/* Párrafos */
+p {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Estilo de los enlaces de navegación */
+nav {
+  background-color: #2980b9;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilo para la lista */
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+ul li strong {
+  color: #2980b9;
+}
+
+/* Estilo del formulario de contacto */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #1d6e8c;
+}
+
+/* Estilo de los componentes de la página "Acerca de", "Servicios", "Contacto" */
+section {
+  margin-bottom: 40px;
+}
+
+section h1,
+section h2 {
+  text-align: center;
+}
+
+section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #444;
+}
